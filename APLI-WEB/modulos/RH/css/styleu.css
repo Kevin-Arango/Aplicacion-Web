@@ -1,0 +1,73 @@
+container h1{
+	font-size: 35px;
+   }
+
+   #container{
+padding: auto; 
+
+  }
+
+.btn_new {
+	display: inline-block;
+	background-color: #121414;
+	color: #f8eeee;
+	padding: 5px 25px;
+	border-radius: 4px;
+	margin: 20px;
+    text-decoration: none;
+	
+}
+table{
+	border-collapse: collapse;
+	font-size: 12pt;
+	font-family: 'arial';
+	width: 100%;
+}
+table th{
+	text-align: center;
+	padding: 5px;
+	background: #161111;
+	color: rgb(247, 235, 235);
+}
+table tr:nth-child(odd){
+	background-color: #5a72c0;
+}
+table td{
+	padding: 5px;
+}	
+.link_edit{
+	color:#0a4661
+}
+.link_delete{
+	color: red;
+}
+
+/****************BUSCADOR****************/
+
+.form_search{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	float: right;
+	background: initial;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.form_search .btn_search{
+    background: #058167;
+	color: #0e0d0d;
+	padding: 0 20px;
+	border: 0;
+	cursor: pointer;
+	margin-left: 10px;
+}
+h1{
+	font-size: 26px;
+    color: #090606;
+
+}
+

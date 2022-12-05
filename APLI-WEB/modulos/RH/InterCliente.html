@@ -1,0 +1,48 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes</title>
+</head>
+
+<body>
+    
+    <form action="RegistrarCliente.php" id="tabla" method="post" >
+        <link rel="stylesheet" href="css/style.css">
+        
+        <h2>Ingresar Cliente</h2> 
+        <!-- CAMPOS A RELLENAR -->
+        <!--<label form="accion">accion
+            <select name="accion" id="accion">
+            <option value="Ingresar"> Agregar </option>
+            <option value="borrar"> INGRESAR </option>-->
+
+    </select>
+        <br>
+        <strong><label>Nombre:</label>
+            <input type="text" name="nombreCliente" placeholder="Nombre(s)" required />
+        </br> <br>
+            <label>Apellido Paterno:</label> 
+            <input type="text" name="apellidoPaterno" placeholder="Primer Apellido" required />
+        </br> <br>
+            <label>Apellido Materno:</label> 
+            <input type="text" name="apellidoMaterno" placeholder="Segundo Apellido" required />    
+        </br> <br>
+            <label>Direccion:</label>
+            <input type="text" name="direccion" placeholder="Calle, numero" required />  
+        </br> <br>    
+            <label>Telefono:</label>
+            <input type="text" name="telefonoCliente" placeholder="Fijo, Celular" required />
+    
+        </br> <br>
+            <label>Correo:</label></strong>
+            <input type="text" name="correo" placeholder="Correo Electronico" required />
+        </br><br>
+
+        <button> INGRESAR </button>
+
+    </form>
+
+</body>
+
+</html>
